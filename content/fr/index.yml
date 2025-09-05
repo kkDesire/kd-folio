@@ -31,5 +31,13 @@ about:
   title: À propos de moi
   description: |
     En tant que développeur front-end avec plusieurs années d'expérience, je mets à profit mon expertise en Vue.js (Nuxt), React (Next.js) et les écosystèmes modernes du web pour concevoir et développer des solutions digitales performantes et évolutives.
-    Mon approche allie rigueur technique et sens de l'expérience utilisateur, transformant des concepts complexes en interfaces intuitives et fluides. J'ai contribué au développement de solutions comme WI-AGRI et E-AGRI, en travaillant sur l'architecture frontend, l'intégration de modules métiers, la sécurité côté client et la gestion asynchrone des données.
-    Passionné par l'innovation, je reste en veille constante pour intégrer les meilleures pratiques du développement web et offrir des produits à la fois fiables, modernes et centrés sur l'utilisateur.
+
+experience:
+  title: Expérience Professionnelle
+  items:
+    - position: Développeur Frontend
+      date: 2022 - Present
+      company:
+        name: Mobisoft
+        logo: i-custom-logomobisoft
+        url: https://mobisoft.ci/

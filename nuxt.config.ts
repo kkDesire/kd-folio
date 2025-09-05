@@ -22,7 +22,15 @@ export default defineNuxtConfig({
         file: 'fr-FR.ts',
       },
     ],
-    defaultLocale: 'fr',
+    defaultLocale: 'en',
+    strategy: 'no_prefix',
+  },
+
+  icon: {
+    customCollections: [{
+      prefix: 'custom',
+      dir: './app/assets/icons',
+    }],
   },
 
   nitro: {
