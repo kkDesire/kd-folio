@@ -23,11 +23,11 @@ Au-delà des métriques de conversion, j'ai découvert que la couleur influença
 
 Depuis, j'ai développé un cadre de prise de décision autour de la couleur qui va bien au-delà de l'esthétique :
 
-1. Considérer la réponse émotionnelle que vous souhaitez provoquer  
-2. Tester les choix de couleurs avec vos segments d'utilisateurs spécifiques  
-3. Utiliser la couleur pour créer des hiérarchies visuelles qui guident naturellement les utilisateurs  
-4. Tenir compte des associations culturelles des couleurs pour un public international  
-5. Garantir un contraste suffisant pour la lisibilité et l'accessibilité  
+1. Considérer la réponse émotionnelle que vous souhaitez provoquer
+2. Tester les choix de couleurs avec vos segments d'utilisateurs spécifiques
+3. Utiliser la couleur pour créer des hiérarchies visuelles qui guident naturellement les utilisateurs
+4. Tenir compte des associations culturelles des couleurs pour un public international
+5. Garantir un contraste suffisant pour la lisibilité et l'accessibilité
 
 La leçon la plus précieuse que j'ai apprise est qu'il n'existe pas de couleurs universellement « justes » — seulement des couleurs qui communiquent efficacement votre message et guident les utilisateurs vers leurs objectifs dans votre contexte spécifique.
 

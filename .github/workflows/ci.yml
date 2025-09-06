@@ -1,7 +1,7 @@
 name: ci
 on: push
 
-jobs: 
+jobs:
   ci:
     runs-on: ${{ matrix.os }}
     strategy:
@@ -22,12 +22,12 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: pnpm
-      
+
       - name: Install dependencies
         run: pnpm install
-      
+
       - name: Lint
-        run: pnpm run lint
+        run: pnpm lint
 
       - name: Typecheck
         run: pnpm run typecheck
