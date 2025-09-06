@@ -18,6 +18,9 @@ watch(current, (newLocale) => {
           {{ locale.code }}
         </span>
       </div>
+      <template #fallback>
+        <div class="animate-pulse h-4 w-8 rounded bg-primary/20" />
+      </template>
     </ClientOnly>
   </div>
 </template>

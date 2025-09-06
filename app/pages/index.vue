@@ -1,12 +1,9 @@
 <script setup lang="ts">
-import type { Collections } from '@nuxt/content'
-
 const { locale } = useI18n()
 
 const { data: page } = await useAsyncData('index', async () => {
-  const collection = (`index_${locale.value}`) as keyof Collections
-  const content = await queryCollection(collection).first()
-  return content
+  const collection = (`index_${locale.value}`) as keyof ICollection
+  return await queryCollection(collection).first()
 }, {
   watch: [locale],
 })
@@ -30,5 +27,7 @@ useSeoMeta({
       <LandingAbout :page />
       <LandingWorkExperience :page />
     </UPageSection>
+    <LandingBlog :page />
+    <LandingTestimonials :page />
   </UPage>
 </template>

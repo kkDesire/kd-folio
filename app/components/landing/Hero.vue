@@ -108,7 +108,7 @@ const { footer, global } = useAppConfig()
             variant="ghost"
             class="gap-2"
             :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'Disponible pour de nouveaux projets' : 'Non disponible pour le moment'"
+            :label="global.available ? $t('available') : $t('not_available')"
           >
             <template #leading>
               <span class="relative flex size-2">

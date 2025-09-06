@@ -41,3 +41,30 @@ experience:
         name: Mobisoft
         logo: i-custom-logomobisoft
         url: https://mobisoft.ci/
+
+blog:
+  title: Derniers Articles
+  description: Quelques-unes de mes réflexions récentes
+
+testimonials:
+  - quote: L'approche d'Emma en matière de design UX a complètement transformé notre produit. Elle possède une rare capacité à équilibrer une esthétique soignée et une simplicité fonctionnelle. La refonte n\'était pas seulement plus belle, elle a réduit nos tickets de support client de 40 % et a augmenté les taux de conversion sur tous nos indicateurs clés.
+    author:
+      name: Sarah Chen
+      description: Directrice produit chez Bloom Finance
+      avatar:
+        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: Travailler avec Emma a été la meilleure décision que nous ayons prise pour notre startup. Elle n'a pas seulement livré des designs — elle a remis en question nos hypothèses, mené des recherches utilisateurs approfondies et créé une expérience qui a réellement trouvé un écho auprès de notre audience. Sa connaissance technique du développement front-end a permis une transmission fluide à notre équipe d'ingénierie.
+    author:
+      name: Michael Rodriguez
+      description: Cofondateur de Wavelength Music
+      avatar:
+        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: Emma se distingue par sa capacité à traduire des données complexes sur la durabilité en interfaces intuitives. Son travail sur EcoTrack n'était pas seulement visuellement impressionnant — il a fondamentalement changé la façon dont nos utilisateurs interagissent avec les informations environnementales. Elle aborde chaque problème avec créativité et rigueur analytique, exactement ce dont nous avions besoin.
+    author:
+      name: Dr. Aisha Johnson
+      description: Directrice de l'innovation chez GreenTech Solutions
+      avatar:
+        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'

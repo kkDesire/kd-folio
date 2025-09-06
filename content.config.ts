@@ -66,6 +66,13 @@ const commonIndexSchema = z.object({
   }),
 })
 
+const commonBlogSchema = z.object({
+  minRead: z.number(),
+  date: z.date(),
+  image: z.string().nonempty().editor({ input: 'media' }),
+  author: createAuthorSchema(),
+})
+
 export default defineContentConfig({
   collections: {
     index_fr: defineCollection({
@@ -77,6 +84,17 @@ export default defineContentConfig({
       type: 'page',
       source: 'en/index.yml',
       schema: commonIndexSchema,
+    }),
+
+    blog_fr: defineCollection({
+      source: 'fr/blog/*.md',
+      type: 'page',
+      schema: commonBlogSchema,
+    }),
+    blog_en: defineCollection({
+      source: 'en/blog/*.md',
+      type: 'page',
+      schema: commonBlogSchema,
     }),
 
   },

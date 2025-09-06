@@ -1,5 +1,6 @@
 export default defineI18nLocale(() => {
   return {
-    welcome: 'Bienvenue',
+    available: 'Disponible pour de nouveaux projets',
+    not_available: 'Non disponible pour le moment',
   }
 })
