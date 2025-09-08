@@ -11,7 +11,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "prepare": "husky"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.66",
@@ -34,6 +35,7 @@
     "@antfu/eslint-config": "^5.2.2",
     "eslint": "^9.34.0",
     "eslint-plugin-format": "^1.0.1",
+    "husky": "^9.1.7",
     "nuxt": "^4.1.1"
   },
   "pnpm": {
