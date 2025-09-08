@@ -57,6 +57,7 @@ const { footer, global } = useAppConfig()
           duration: 0.6,
           delay: 0.1,
         }"
+        class="font-alegreya"
       >
         {{ page.title }}
       </Motion>

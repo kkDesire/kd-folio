@@ -21,6 +21,16 @@ export default defineAppConfig({
         description: 'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted',
       },
     },
+    pageSection: {
+      slots: {
+        title: '!font-alegreya font-bold!',
+      },
+    },
+    blogPost: {
+      slots: {
+        title: 'font-alegreya font-bold text-md lg:text-lg',
+      },
+    },
   },
   footer: {
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
