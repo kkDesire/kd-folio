@@ -27,17 +27,17 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    customCollections: [{
-      prefix: 'custom',
-      dir: './app/assets/icons',
-    }],
+    customCollections: [
+      {
+        prefix: 'custom',
+        dir: './app/assets/icons',
+      }
+    ],
   },
 
   nitro: {
     prerender: {
-      routes: [
-        '/',
-      ],
+      routes: ['/',],
       crawlLinks: true,
     },
   },

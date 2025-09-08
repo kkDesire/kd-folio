@@ -1,11 +1,13 @@
-import antfu from '@antfu/eslint-config'
+import { createConfig } from '@hrcd/eslint-config'
 
-export default antfu({
-  formatters: true,
-  vue: true,
+export default createConfig({
   typescript: true,
-  stylistic: {
-    indent: 2, //
-    quotes: 'single',
-  },
+  vue: true,
+  nuxt: true,
+
+  // Define files to ignore
+  ignores: [
+    'dist',
+    'node_modules',
+  ],
 })
