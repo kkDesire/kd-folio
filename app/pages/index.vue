@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import type { IndexEnCollectionItem } from '@nuxt/content'
 import type { IIndexCollection } from '~/types'
 
 const { locale } = useI18n()
@@ -16,7 +15,7 @@ useSeoMeta({
   ogTitle: page.value?.seo.title || page.value?.title,
   description: page.value?.seo.description || page.value?.description,
   ogDescription: page.value?.seo.description || page.value?.description,
-  ogUrl: 'https://kd-folio.vercel.app',
+  ogUrl: 'https://desirek.vercel.app',
   twitterTitle: page.value?.seo.title || page.value?.title,
   twitterDescription: page.value?.seo.description || page.value?.description,
 })
