@@ -4,11 +4,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxt/content',
-    '@nuxtjs/i18n',
     '@nuxt/image',
     '@vueuse/nuxt',
     'nuxt-og-image',
     'motion-v/nuxt',
+    '@nuxtjs/i18n',
   ],
   css: ['~/assets/css/main.css'],
   i18n: {
@@ -33,6 +33,10 @@ export default defineNuxtConfig({
         dir: './app/assets/icons',
       }
     ],
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true
+    },
   },
 
   nitro: {
@@ -46,5 +50,5 @@ export default defineNuxtConfig({
     defaults: {
       weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
     },
-  },
+  }
 })

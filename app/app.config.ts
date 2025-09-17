@@ -1,3 +1,5 @@
+import uiTheme from './ui/theme'
+
 export default defineAppConfig({
   global: {
     picture: {
@@ -10,6 +12,7 @@ export default defineAppConfig({
     available: true,
   },
   ui: {
+    tokens: uiTheme,
     colors: {
       primary: 'blue',
       neutral: 'neutral',
